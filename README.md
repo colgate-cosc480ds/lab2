@@ -1,10 +1,5 @@
 # Lab 2: Snakes on a Plane
 
-
-## Todo
-
-- decide how big to make input files
-
 Welcome to the *second* COSC 480 Data Science Lab!
 
 You are encouraged to work with a partner for this lab.  If you do not have a partner, let me know and I can assign one to you.  (While you can choose your partner, you may be asked to choose *different* partners for each lab for the first couple of labs.)
