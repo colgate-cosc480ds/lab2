@@ -14,6 +14,8 @@ The lab is due **Thursday, Feb. 16th 2017 at 11:59pm**.  Submission instructions
 - Feb. 14, 2017 6am: Correction: the number of rows in `flights.csv` may in fact be slightly less than the number of rows in the input because some rows are filtered out (those with 'NA' in `DepTime` or `ArrTime`).
 - Feb. 14, 2017 1:45pm: Correction: in the test_input.csv, one of the times on the first line is `23:55` but it should be `2355`.
 - Feb. 14, 2017 1:45pm: Correction: the test output provided did not match the specification in the readme.  It's now been updated to match the specification.
+- Feb. 14, 2017 2:30pm: Hint: if you are pursuing the challenge problem and want to see where the bottlenecks in your code are, you can try using the [cProfile module](https://docs.python.org/2/library/profile.html) in python.  For reference, my implementation takes about 16 secs, 34 secs, and 11 minutes on januaryhalf2007.csv, january2007.csv, and 2007.csv respectively
+
 
 
 
