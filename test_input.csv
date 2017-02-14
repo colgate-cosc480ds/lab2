@@ -1,5 +1,5 @@
 Year,Month,DayofMonth,DayOfWeek,DepTime,CRSDepTime,ArrTime,CRSArrTime,UniqueCarrier,FlightNum,TailNum,ActualElapsedTime,CRSElapsedTime,AirTime,ArrDelay,DepDelay,Origin,Dest,Distance,TaxiIn,TaxiOut,Cancelled,CancellationCode,Diverted,CarrierDelay,WeatherDelay,NASDelay,SecurityDelay,LateAircraftDelay
-2006,12,31,7,100,23:55,407,408,9E,2944,85069E,186,188,161,-1,65,AUS,DTW,1149,11,14,0,,0,0,0,0,0,0
+2006,12,31,7,100,2355,407,408,9E,2944,85069E,186,188,161,-1,65,AUS,DTW,1149,11,14,0,,0,0,0,0,0,0
 2007,1,1,1,922,925,1038,1049,9E,5894,85439E,76,84,52,-11,-3,LEX,DTW,296,14,10,0,,0,0,0,0,0,0
 2007,1,1,1,1155,1157,1246,1259,9E,2861,85439E,51,62,32,-13,-2,DTW,DAY,166,7,12,0,,0,0,0,0,0,0
 2007,1,1,1,1336,1327,1450,1437,9E,2923,85439E,74,70,42,13,9,DAY,DTW,166,22,10,0,,0,0,0,0,0,0
