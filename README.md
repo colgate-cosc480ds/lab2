@@ -6,6 +6,14 @@ You are encouraged to work with a partner for this lab.  If you do not have a pa
 
 The lab is due **Thursday, Feb. 16th 2017 at 11:59pm**.  Submission instructions appear the end.  *When you finish, please be sure to write a commit message!*
 
+
+## Updates
+
+**Updates to the lab will be posted here**:
+
+- Feb. 14, 2017: Correction: the number of rows in `flights.csv` may in fact be slightly less than the number of rows in the input because some rows are filtered out (those with 'NA' in `DepTime` or `ArrTime`).
+
+
 ## Your challenge
 
 This assignment is designed to expose you to some of the challenges of a typical task faced by a data scientist: using command-line tools and Python scripting to "wrangle" data into a format for subsequent analysis.  In addition, the dataset we will use for this lab is "large" and so you will have to design your programs so that they run efficiently *even when the amount of available memory is smaller than the dataset*.
@@ -68,7 +76,7 @@ And you should see something like this:
 Your task is to edit `lab2.sh` and `lab2.py` such that when `lab2.sh` is executed on an input file (as shown above), it will produce **four csv output files**, as follows:
 
 1. `flights.csv` should be a csv file with the header `TailNum, ActualDepTime, ActualArrTime, Origin, Dest`.
-    + Each row corresponds to a row from the input.  Thus, the number of rows in this file should match the number of rows in the input.  (You can use the UNIX utility `wc` to check.)
+    + Each row corresponds to a row from the input.  Since some rows from the input may be filtered out (see below), `flights.csv` may be slightly smaller than the original input.  (You can use UNIX utilities, such as `wc` and perhaps others, to check that the number of lines in the output is correct.)
     + Fields `TailNum`, `Origin`, and `Dest` are directly from the input.
     + Flights that have 'NA' for `DepTime` or `ArrTime` should be filtered out (see the example code). 
     + `ActualDepTime` and `ActualArrTime` should be formatted as `YYYY-MM-DD hh:mm:ss`  (see the example code).
